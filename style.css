@@ -15,7 +15,7 @@
 /* Section 1 */
 .banner img{
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 
 /* Section 2 */
@@ -36,7 +36,7 @@
 
 .puppy img{
     width: 100%;
-    height: 200px;
+    height: 150px;
 }
 
 .text{
@@ -64,13 +64,19 @@
 
 .more-puppies{
     width: 80%;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
 }
 
-.more-puppies .puppy-card img{
+.more-puppies .puppy-card{
+    flex: 1;
+}
+
+.more-puppies img{
+    width: 100%;
     height: 300px;
 }
 
@@ -85,5 +91,5 @@
 }
 
 .footer h3{
-    font-size: 35px;
+    font-size: 25px;
 }
