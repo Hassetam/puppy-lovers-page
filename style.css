@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: rgb(25, 95, 128);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Section 1 */
+.banner img{
+    width: 100%;
+    height: 250px;
+}
+
+/* Section 2 */
+
+.pictures{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%; 
+    margin-top: 40px; 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.puppy{
+    flex: 1;
+}
+
+.puppy img{
+    width: 100%;
+    height: 200px;
+}
+
+.text{
+    flex: 1;
+    background-color: rgb(244, 82, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Section 3 */
+
+.more h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+}
+
+
+
+.more-puppies{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.more-puppies .puppy-card img{
+    height: 300px;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 30px;
+    background-color: rgb(25, 95, 128);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer h3{
+    font-size: 35px;
+}
